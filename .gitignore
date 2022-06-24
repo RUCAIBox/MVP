@@ -1,0 +1,5 @@
+*.pyc
+/generated
+/log
+/dataset
+/saved

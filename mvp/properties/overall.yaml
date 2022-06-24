@@ -1,0 +1,25 @@
+# general
+gpu_id: 0
+use_gpu: True
+seed: 2020
+state: INFO
+reproducibility: True
+data_path: 'dataset/'
+checkpoint_dir: 'saved/'
+generated_text_dir: 'generated/'
+
+# training settings
+epochs: 80
+train_batch_size: 8
+update_freq: 24
+eval_batch_size: 32
+learner: adamw
+learning_rate: 3e-5
+eval_step: 1
+stopping_step: 6
+grad_clip: 0.1
+
+# evaluation settings
+metrics: ["bleu", "rouge", "meteor"]
+
+
