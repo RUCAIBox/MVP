@@ -112,3 +112,6 @@ We also support to lightweight tune with BART+R (*i.e.,* Prefix-tuning):
 ```bash
 python run.py --dataset=[dataset_name] --pretrained_model_path=facebook/bart-large --use_prompt=True --lightweight_tuning=True
 ```
+
+## Intermediate Results
+The generated texts of our models on each dataset is coming soon.
