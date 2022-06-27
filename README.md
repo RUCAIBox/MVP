@@ -1,6 +1,6 @@
 # MVP: Multi-task Supervised Pre-training for Natural Language Generation
 
-This repository is the official implementation of our paper.
+This repository is the official implementation of our paper [https://arxiv.org/abs/2206.12131](https://arxiv.org/abs/2206.12131).
 
 ## Overview
 
@@ -47,7 +47,7 @@ Now we support 11 generation tasks and corresponding datasets:
 
 After downloading the dataset in this folder, our code can conduct fine-tuning, inference and evaluation in a pipeline.
 
-We propose MVP, Single, MVP+R, MVP+S and MVP+M in our paper, details can be found [here](). The latter three support lightweight prompt tuning.
+We propose MVP, Single, MVP+R, MVP+S and MVP+M in our paper, details can be found [here](https://arxiv.org/abs/2206.12131). The latter three support lightweight prompt tuning.
 
 ### Fine-tuning with MVP:
 
@@ -115,3 +115,14 @@ python run.py --dataset=[dataset_name] --pretrained_model_path=facebook/bart-lar
 
 ## Intermediate Results
 The generated texts of our models on each dataset is coming soon.
+
+## Citation
+```bibtex
+@article{tang2022mvp,
+  title={MVP: Multi-task Supervised Pre-training for Natural Language Generation},
+  author={Tang, Tianyi and Li, Junyi and Zhao, Wayne Xin and Wen, Ji-Rong},
+  journal={arXiv preprint arXiv:2206.12131},
+  year={2022},
+  url={https://arxiv.org/abs/2206.12131},
+}
+```
