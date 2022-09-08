@@ -28,7 +28,7 @@ bash install.sh
 
 ## Datasets
 
-You can download our datasets for fine-tuning in: [https://drive.google.com/drive/folders/1ZJdXrBhBPtfozPqhIv-Yid9yemXRJiZQ?usp=sharing](https://drive.google.com/drive/folders/1ZJdXrBhBPtfozPqhIv-Yid9yemXRJiZQ?usp=sharing). You should create a folder `dataset` and download dataset such as `cnndm` in it.
+You can download our datasets for fine-tuning in: [https://huggingface.co/RUCAIBox](https://huggingface.co/RUCAIBox). You should create a folder `dataset` and download dataset such as `cnndm` in it.
 
 Now we support 11 generation tasks and corresponding datasets:
 - Text summarization: CNN/Daily Mail (cnndm), XSum (xsum), SAMSum (samsum), and WLE (wle).
